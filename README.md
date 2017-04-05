@@ -6,8 +6,11 @@ Generator function yielding the next number in a fibonacci sequence. Optional st
 `npm install fibonacci-generator-function`
 
 ```javascript
-const {fibGen} = require('fibonacci-generator-function'); //
-import {fibGen} from 'fibonacci-generator-function'; // ES2015+
+// Node.JS
+const {fibGen} = require('fibonacci-generator-function');
+
+// ES2015+
+import {fibGen} from 'fibonacci-generator-function';
 ```
 
 ## Usage
