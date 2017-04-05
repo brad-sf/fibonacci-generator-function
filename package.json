@@ -1,6 +1,6 @@
 {
   "name": "fibonacci-generator-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generator function yielding the next number in a fibonacci sequence. Optional starting param.",
   "main": "index.js",
   "scripts": {
