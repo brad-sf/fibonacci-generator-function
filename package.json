@@ -1,0 +1,24 @@
+{
+  "name": "fibonacci-generator-function",
+  "version": "1.0.0",
+  "description": "Generator function yielding the next number in a fibonacci sequence. Optional starting param.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleyflood/fibonacci-generator-function.git"
+  },
+  "keywords": [
+    "fibonacci",
+    "generator",
+    "fibGen"
+  ],
+  "author": "Bradley Flood <bradley.flood@gmail.com> (https://bradleyflood.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleyflood/fibonacci-generator-function/issues"
+  },
+  "homepage": "https://github.com/bradleyflood/fibonacci-generator-function#readme"
+}
