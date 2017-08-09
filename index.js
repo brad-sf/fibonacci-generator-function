@@ -1,5 +1,8 @@
-const fibGen = function* (start = 1)
-{
+/**
+ * Generator function that yields numbers according to the fibonacci sequence
+ * @param {number} start
+ */
+const fibGen = function* (start = 1) {
     let a = start;
     let b = 0;
     let fib;
@@ -11,6 +14,6 @@ const fibGen = function* (start = 1)
         yield fib;
     }
 
-}
+};
 
-exports.fibGen = fibGen;
+module.exports = fibGen;

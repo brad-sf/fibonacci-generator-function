@@ -2,18 +2,13 @@
 
 Generator function yielding the next number in a fibonacci sequence. Optional starting param.
 
-## Installation
-`npm install fibonacci-generator-function`
-
-```javascript
-const {fibGen} = require('fibonacci-generator-function'); //
-import {fibGen} from 'fibonacci-generator-function'; // ES2015+
-```
-
 ## Usage
-
 ```javascript
-const fib = fibGen(); // Default sequence start of 1
+npm install fibonacci-generator-function
+
+const fibGen = require('fibonacci-generator-function');
+
+const fib1 = fibGen(); // Default sequence start of 1
 const fib3 = fibGen(3); // Start sequence at 3
 
 console.log( fib1.next() ); // { value: 1, done: false }

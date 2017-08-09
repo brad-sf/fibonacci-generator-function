@@ -1,4 +1,4 @@
-const {fibGen} = require('./index.js');
+const fibGen = require('./index.js');
 
 const fib1 = fibGen(); // 1 is default param
 const fib2 = fibGen(2);
